@@ -12,3 +12,5 @@ export function getWord(word: string) {
         .then((data) => handleResponse(data))
         .catch(handleError);
 }
+
+// Use Memrise API for get English phrases
